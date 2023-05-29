@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--boja1);
+}
+
+
+:root{
+    --boja1: rgb(23, 46, 78);
+    --boja2: rgb(255, 255, 255);
+    --boja3: rgb(0, 0, 0);
+    --boja4: rgb(181, 140, 81);
+    
+}
+
+#header{
+    width: 100%;
+    text-align: center;
+    background-color: var(--boja1);
+    color: var(--boja4);
+    height: 42px;
+    padding-top: 15px;
+}
+
+#slika_logoa{
+    
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    
+    
+}
+
+#meni{
+    text-align: center;
+    background-color: var(--boja1);
+    height: 250 px;
+}
+
+#lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top:70px;
+    margin: auto;
+    padding-top:30px;
+    
+}
+
+li{
+    width: 125px;
+  height: 50px;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+  margin: auto;
+  
+}
+a {
+    font-size: 22px;
+    color: VAR(--boja4);
+    text-decoration: none;
+    transition: all 0.45s;
+  }
+ul{
+    
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+li:hover{
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==");
+    animation: line 1s;
+    
+}
+
+li:hover a{
+    color: #d94f5c;
+}
+
+  #saradnici{
+    text-align: center;
+    border-collapse: collapse;
+    color:var(--boja4);
+    flex-wrap: wrap;
+
+  }
+
+  .slike1 {
+    height: 150px;
+    width: 250px;
+    
+  }
+
+  .h1_saradnici{
+    padding-bottom: 10px;
+  }
+
+
+
+.rad {
+  background: var(--boja1);
+  color:var(--boja4);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.rad p {
+  margin: 0 0 13px 0;
+}
+
+.rad a {
+  color: var(--boja4);
+}
+
+.center { text-align: center; }
+
+.container {
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.episode {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  position: relative;
+}
+
+.episode__number {
+  font-size: 192px;
+  font-weight: 600;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  height: 210px;
+  transition: all 0.2s ease-in;
+}
+
+.episode__content {
+  border-top: 2px solid #fff;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  padding: 15px 0;
+}
+
+.episode__content .title {
+  font-weight: 600px;
+  font-size: 30px;
+  color: var(--boja4);
+}
+
+.episode__content .story {
+  line-height: 26px;
+}
+
+@media (max-width: 700px) {
+  .episode__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .episode__content .story {
+    font-size: 15px;
+  }
+}
+
+
+@keyframes line {
+    0% {
+      background-position-x: 550px;
+    }
+  }
+
+
+
+@media only screen and (max-width:700px){
+    [class="col-"]{
+        width:100%;
+    }
+}
+@media only screen and (min-width:701) and (max-width:1000px){
+    [class="col-t-"]{
+        float:left;
+    }
+    .col-t-1{
+        width: 8.33%;
+    }
+    .col-t-2{
+        width: 16.66%;
+    }
+    .col-t-3{
+        width: 25%;
+    }
+    .col-t-4 {
+        width: 33.33%;
+    }
+    .col-t-5 {
+        width: 41.66%;
+    }
+    .col-t-6 {
+        width: 50%;
+    }
+    .col-t-7 {
+        width: 58.33%;
+    }
+    .col-t-8 {
+        width: 66.66%;
+    }
+    .col-t-9 {
+        width: 75%;
+    }
+    .col-t-10 {
+        width: 83.33%;
+    }
+    .col-t-11 {
+        width: 91.66%;
+    }
+    .col-t-12 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:1001px) {
+    [class*="col-"]{
+        float:left;
+    }
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.33%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
