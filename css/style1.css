@@ -167,9 +167,9 @@ li:hover a{
 
 .kont{
     
-        width: 60%;
-        margin: 16px auto;
-        padding: 32px;
+        width: 50%;
+        margin: 12px auto;
+        padding: 25px;
         text-align: justify;
         transition: all 0.3s;
         color:var(--boja4);
