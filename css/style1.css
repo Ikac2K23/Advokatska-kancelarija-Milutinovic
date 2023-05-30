@@ -98,13 +98,13 @@ li:hover a{
   }
   
   #h1_tekst {
-    font-size: 70px;
+    font-size: 60px;
     text-transform: uppercase;
     font-family: 'Gambetta', serif;
     letter-spacing: -3px;
-    transition: 700ms ease;
+    transition: 600ms ease;
     font-variation-settings: "wght" 311;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.6rem;
     color: var(--boja4);
     outline: none;
     text-align: center;
