@@ -130,11 +130,13 @@ li:hover a{
 }
 
 #galerija {
-    flex-wrap: wrap;
-   margin: 0;
-   
-
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
 } 
+
 
 
 #forma { background:var(--boja1)}
