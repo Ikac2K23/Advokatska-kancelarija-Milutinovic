@@ -102,23 +102,21 @@ li:hover a{
   }
 
   #prvi {
-    width: 405px;
-    height: 400px;
+    width: 700px;
+    height: 600px;
     text-align: center;
     display: table-cell;
     vertical-align: middle;
 }
 
-#vslika {
-    width: 370px;
-    height: 270px;
-}
+
 
 #drugi {
     height: 400px;
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+    display: none;
 }
 
 .mslika {
@@ -139,8 +137,11 @@ li:hover a{
 
 
 
-#forma { background:var(--boja1)}
-form { max-width:420px; margin:50px auto; }
+#forma { background:var(--boja1) }
+form { max-width:420px;
+     margin:0;
+     
+}
 
 .feedback-input {
   color:white;
