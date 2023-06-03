@@ -107,12 +107,13 @@ li:hover a{
     text-align: center;
     display: table-cell;
     vertical-align: middle;
-    max-width: 100%;
+   
 }
 
 
 
 #drugi {
+    width: 800px;
     height: 400px;
     text-align: center;
     display: table-cell;
@@ -125,23 +126,17 @@ li:hover a{
     height: 90px;
     margin-top: 5px;
     margin-left: 15px;
-    
 }
 
-#galerija{
-    margin: auto;
-}
-#gal{
-    margin: auto;
-}
+
+
 
 
 
 #forma { background:var(--boja1);
 }
 
-form{
-}
+
 
 .feedback-input {
   color:white;
