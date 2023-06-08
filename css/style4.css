@@ -104,6 +104,34 @@ li:hover a{
 #forma { background:var(--boja1);
 }
 
+#prvi {
+    width: 405px;
+    height: 400px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#vslika {
+    width: 390px;
+    height: 270px;
+}
+
+#drugi {
+    height: 400px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    display: none;
+}
+
+.mslika {
+    width: 100px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+
 .feedback-input {
   color:white;
   font-family: Helvetica, Arial, sans-serif;
